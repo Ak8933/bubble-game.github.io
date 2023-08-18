@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 0px 5px 0px rgb(95, 95, 95);
+}
+
+.ptop{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30%;
+    box-shadow:10px 0px 10px 0px rgb(20, 20, 20)
+}
+
+
+.elem{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem h4{
+    font-weight: 500;
+}
+
+.box{
+    background-color: rgb(214, 212, 212);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.pbtm{
+    height: calc(100% - 80px);
+    width: 100%;
+    background: rgb(147, 147, 147);
+    padding: 20px; /* Adjust the padding to your preference */
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
+    
+}
+
+.bubble:hover{
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
